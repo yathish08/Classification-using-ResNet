@@ -3,6 +3,7 @@
 ## Overview
 This project implements a custom CNN with ResNet-style residual blocks to classify a 4-class subset of the CIFAR-10 dataset. The subset includes cats, frogs, airplanes, and cars.
 
+
 ## Project Setup
 
 ### Dependencies
@@ -75,6 +76,9 @@ transform = transforms.Compose([
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
 ```
+## Training Details:
+Cifar_data_classification.ipynb: Trained on a custom 4-class subset of CIFAR-10 with 1000 images per class (total 4000 images).
+main.ipynb: Trained on the same subset with fewer samples, using 300 images per class (total 1200 images).
 
 ## Results
 
