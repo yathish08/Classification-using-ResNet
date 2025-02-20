@@ -78,6 +78,7 @@ transform = transforms.Compose([
 ```
 ## Training Details:
 Cifar_data_classification.ipynb: Trained on a custom 4-class subset of CIFAR-10 with 1000 images per class (total 4000 images).
+
 main.ipynb: Trained on the same subset with fewer samples, using 300 images per class (total 1200 images).
 
 ## Results
