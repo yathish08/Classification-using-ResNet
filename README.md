@@ -63,7 +63,7 @@ class SimpleCustomCNN(nn.Module):
 - Initial Learning Rate: 0.3
 - Learning Rate Scheduler: Cosine Annealing
 - Training Epochs: 55
-- Batch Size: 100
+
 
 ### Data Augmentation
 ```python
@@ -79,8 +79,7 @@ transform = transforms.Compose([
 ## Results
 
 ### Training Progress
-- Best Validation Accuracy: 84.58% (Epoch 44)
-- Final Test Accuracy: 82.83%
+- Best Model Accuracy: 84.58% (Epoch 44)
 
 ### Confusion Matrix Results
 ```
@@ -89,13 +88,6 @@ transform = transforms.Compose([
  [ 18   6 263  13]
  [ 10   2  41 247]]
 ```
-
-Class-wise Performance:
-- Cat: 233/300 correct predictions
-- Frog: 251/300 correct predictions
-- Airplane: 263/300 correct predictions
-- Car: 247/300 correct predictions
-
 ### Model Checkpointing
 - Best model saved as 'best_val_model.pt'
 - Checkpoint includes:
@@ -136,3 +128,10 @@ eval_model(CNN_model, test_data_loader)
 3. Try different optimizers (Adam, AdamW)
 4. Add more residual blocks
 5. Implement learning rate warmup
+
+
+### Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+### License
+This project is open-source and available under the Apache Lisence.
