@@ -130,8 +130,8 @@ eval_model(CNN_model, test_data_loader)
 5. Implement learning rate warmup
 
 
-### Contributing
+## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-### License
+## License
 This project is open-source and available under the Apache Lisence.
